@@ -1,12 +1,23 @@
 # Flask Docker App
 
-This is a simple Flask web application that is Dockerized. It runs a basic web server that returns "Hello, World!" when accessed.
+This is a simple Flask web application that is Dockerized. It runs a basic web server that returns "Hello, World!" when accessed Coded By Ocen John Bosco.
 
 ## Prerequisites
 
 - Docker
 - Git
 - Kubernetes (for orchestration demo)
+  #PROJECT STRUCTURE
+FLASK APP/
+│
+├── Dockerfile  # Dockerfile for containerizing the app
+├── app.py # Flask application code
+├── requirements.txt  # Python dependencies
+├── README.md
+└── kubernetes/
+    ├── deployment.yaml
+    └── service.yaml
+
 
 ## How to Build the Docker Image
 
@@ -44,4 +55,4 @@ This is a simple Flask web application that is Dockerized. It runs a basic web s
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the Terms and Conditions Placed By Ocen John Bosco.
